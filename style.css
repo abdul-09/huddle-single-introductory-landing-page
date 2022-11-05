@@ -134,7 +134,7 @@ h1 {
         padding: 0 1.5rem;
     }
   
-
+ }
     .btn {
         display: flex;
         align-items: flex-start;
@@ -152,8 +152,6 @@ h1 {
         /* align-items: flex-end; */
         
     }
-
-  
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(225, 25%, 97%); }
