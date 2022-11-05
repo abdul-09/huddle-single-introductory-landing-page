@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    min-height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./images/bg-mobile.svg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    margin: 15px 30px;
+   
+
+}
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
+    padding-right: 20px;
+    font-size: 36px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+   
+}
+
+.logo {
+    margin-bottom: 50px;
+    max-width: 30%;
+
+}
+
+.second-image {
+    max-width: 100%; 
+    padding-bottom: 20px;
+}
+
+
+
+.details p {
+    text-align: center;
+    color: white;
+    line-height: 1.4;
+    padding-bottom: 15px ;
+    padding-right: 35px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 12px 60px;
+    border-radius: 20px;
+    background-color: none;
+    border: none;
+    outline: none;
+    color: hsl(257, 40%, 49%);
+    margin: 15px auto;
+    margin-bottom: 50px;
+    
+
+}
+ .icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+    margin: 40px 0; 
+    
+}
+
+.icons img {
+    padding:20px auto;
+}
+
+
+.icons li > i {
+    color: white;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%; 
+ }
+
+ @media screen and (min-width:768px) {
+
+    body {
+        background-image: url('./images/bg-desktop.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto 50px;  
+    }
+
+    
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         
+    }
+
+    .second-image {
+        max-width: 100%;
+        margin: 2rem 0;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: start;
+        padding-top: 0;
+        padding-left: 1.25rem;
+    }
+
+    .details p {
+        font-size: 1.8rem;
+        text-align: start;
+        padding: 0 1.5rem;
+    }
+  
+
+    .btn {
+        display: flex;
+        align-items: flex-start;
+        margin:1.5rem 0 4rem 1.5rem;
+        
+    }
+
+    .btn:hover {
+        cursor: pointer;
+        background-color: hsl(300, 69%, 71%);
+    }
+
+    .icons ul {
+        float: right;
+        /* align-items: flex-end; */
+        
+    }
+
+  
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(225, 25%, 97%); }
